@@ -6,5 +6,8 @@
     <string name="btn_inscription_text">Inscription</string>
     <string name="btn_connexion_text">Connexion</string>
     <string name="inscription_reussite">Inscription réussite !</string>
-    <string name="inscription_echec">Inscritpion echec !</string>
+    <string name="inscription_echec">Inscription echec !</string>
+    <string name="Title_form_connexion">Formulaire de connexion</string>
+    <string name="connexion_reussite">Connexion réussite</string>
+    <string name="connexion_echec">Erreur de connexion</string>
 </resources>

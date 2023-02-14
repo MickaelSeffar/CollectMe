@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CollectMe</string>
+    <string name="Title_form_inscription">Sign up</string>
+    <string name="email_txt">Mail</string>
+    <string name="motDePasse_text">Password</string>
+    <string name="btn_inscription_text">Register</string>
+    <string name="btn_connexion_text">Login</string>
+    <string name="inscription_reussite">Sign up success</string>
+    <string name="inscription_echec">Sign up error</string>
+    <string name="Title_form_connexion">Connexion Form</string>
+</resources>
