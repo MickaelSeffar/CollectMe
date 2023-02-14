@@ -3,6 +3,7 @@ package com.example.collectme;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -49,6 +50,12 @@ public class InscriptionActivity extends AppCompatActivity {
     public void onClickGoToConnexion(View view) {
 //Afficher à l'utilisateur Bonjour, tu es dans onClickConnexion
         Toast.makeText(this, "Bonjour, tu es dans onClickConnexion", Toast.LENGTH_SHORT).show();
+
+        Intent connexionIntent = new Intent(this, ConnexionActivity.class);
+        startActivity(connexionIntent);
+        //finit la première activité et retourne à la suivante
+        finish();
+//        finishAffinity();
     }
 
     public void insertUtilisateurFirebase(String email, String password) {
